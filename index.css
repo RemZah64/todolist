@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+body{
+    background-color: rgb(69,69,69);
+}
+.titlu{
+    text-align: center;
+    font-size: 1000%;
+    font-family:Lumanosimo;
+    color: rgb(69,69,69);
+}
+.casuta{
+    background-color: rgb(68,68,68);
+    height:8vh;
+    width: 50vw;
+    margin: auto;
+    color: rgb(70,70,70);
+}
+#text-casuta{
+    position: relative;
+    height:8vh;
+    width: 50vw;
+    margin: auto;
+    font-size:150%;
+    font-style: italic;
+    font-family: Lumanosimo;
+    color: rgb(70,70,70);
+    border-style: none;
+}
+.text-taiat{
+    margin-left:100px;
+    margin-top: 40px;
+    text-align:center;
+    font-size: 250%;
+    font-family:Lumanosimo;
+}
+.subsol{
+    /*children:inside;*/
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+    margin-top:25px;
+    font-size:250%;
+    font-family:Lumanosimo;
+}
+.font{
+    font-size:30px;
+    border-color:transparent;
+    background-color: rgb(69,69,69);
+}
+.butoane,#elemente{
+    display: inline-block;
+}
